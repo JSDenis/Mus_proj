@@ -1,12 +1,15 @@
 //const GENRE = 'https://cors-anywhere.herokuapp.com/https://api.deezer.com/genre';
-const LOCAL_GENRE = '/src/data/genre.json';
-const LOCAL_RADIO = '/src/data/radio.json';
-const LOCAL_PLAYLIST = "/src/data/playlist.json";
+const LOCAL_GENRE = 'https://raw.githubusercontent.com/JSDenis/Mus_proj/main/src/data/genre.json';
+const LOCAL_RADIO = 'https://raw.githubusercontent.com/JSDenis/Mus_proj/main/src/data/genre.json';
+const LOCAL_PLAYLIST = "https://raw.githubusercontent.com/JSDenis/Mus_proj/main/src/data/playlist.json";
 //const RADIO = 'https://cors-anywhere.herokuapp.com/https://api.deezer.com/radio&output=json';
 /* const JSON_RADIO = 'http://localhost:3006/radio';
 const JSON_PLAYLIST = 'http://localhost:3006/playlist'; */
 
 console.log(LOCAL_RADIO);
+
+/* "https://raw.githubusercontent.com/JSDenis/Mus_proj/main/src/data/genre.json"
+"https://jsdenis.github.io/src/data/genre.json" */
 
 
 const getResource = async (url) => {
