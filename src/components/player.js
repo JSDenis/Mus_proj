@@ -1,4 +1,4 @@
-import { getRadioCurrent } from "../utils/getDataMusic";
+import { getRadioCurrent } from "../utils/getDataLocal";
 
 const getVariable = () => {
   const audioFile = document.querySelector('#audio');
