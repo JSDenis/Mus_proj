@@ -33,14 +33,16 @@ document.body.innerHTML = `
     </main>
 `;
 
-/* const LOCAL_RADIO = "/src/data/genre.json";
+const LOCAL_RADIO = "https://raw.githubusercontent.com/JSDenis/Mus_proj/main/src/data/genre.json";
 
 fetch(LOCAL_RADIO).then(resp => {
   return resp.json();
 }).then(data => {
   console.log(data);
 })
- */
+
+
+
 
 
 window.addEventListener('load', getContent);
